@@ -4,6 +4,10 @@ import WebSocket, { WebSocketServer } from "ws";
 const app = express();
 const httpServer = app.listen(process.env.PORT || 8081);
 
+
+app.get("/", (req, res) => {
+  res.send("WebSocket server is running");
+});
 /* -----------------------------
    GLOBAL SAFETY (IMPORTANT)
 --------------------------------*/
