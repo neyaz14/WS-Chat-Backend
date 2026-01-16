@@ -39,7 +39,7 @@ wss.on('connection', function connection(ws) {
         });
     });
 
-    ws.send('hello from server')
+    // ws.send('')
 
     ws.on("error", (err) => {
         console.error("Socket error:", err);
