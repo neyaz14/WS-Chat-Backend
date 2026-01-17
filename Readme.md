@@ -41,7 +41,7 @@ Messages coming from the frontend always contain a **type**, and the server reac
 - Node.js
 - Express.js
 - ws (WebSocket library)
-- TypeScript (recommended)
+- Javascript (recommended)
 
 ---
 
@@ -51,10 +51,9 @@ Messages coming from the frontend always contain a **type**, and the server reac
 project-root/
 │
 ├── src/
-│   └── server.ts
+│   └── index.ts
 │
 ├── package.json
-├── tsconfig.json
 └── README.md
 ```
 
@@ -155,14 +154,8 @@ ws://localhost:8081
 - Private rooms
 - Room auto-delete when empty
 - Authentication
-
----
-
-## 📌 Notes
-
-- This project intentionally avoids `Map` for educational clarity
-- Best suited for learning and small-to-medium scale apps
-- Easy to refactor later into Redis or database-backed rooms
+- Change code base in TS
+- Insted of array use Map()
 
 ---
 
@@ -170,5 +163,4 @@ ws://localhost:8081
 
 Built as a learning-focused WebSocket room chat implementation.
 
-Happy hacking 🚀
 
