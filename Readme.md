@@ -51,7 +51,7 @@ Messages coming from the frontend always contain a **type**, and the server reac
 project-root/
 │
 ├── src/
-│   └── index.ts
+│   └── index.js
 │
 ├── package.json
 └── README.md
